@@ -1,0 +1,71 @@
+img
+{
+    width:500px;
+    height:500px;
+}
+html
+{
+    background-image:url(images/Hotels.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+a
+{
+    font-size:25px;
+    text-decoration:none;
+    padding-right:20px;
+    color:black;
+}
+marquee
+{
+    font-size:25px;
+}
+#design
+{
+    padding-left:30px;
+    padding-right:30px;
+}
+#last
+{
+    background:black;
+}
+:placeholder-shown
+{
+    font-size:15px;
+    text-align:center;
+}        
+#Final
+{
+    background-color:Blue;
+    border-radius:500px 50px 50px 500px;
+    border-radius:-webkit-linear-gradient;
+}
+input-type
+{
+    height:300px;
+    width:300px;
+}
+button
+{
+    background-color:red;
+    font-style:bold;
+    font-size:25px;
+}
+.first
+{
+    padding-right:100px;
+    border-radius:-webkit-linear-gradient(aqua,aqua);
+    border-radius:50px 50px 50px 50px;
+    background-color:aqua;
+}
+.first:hover
+{
+    background-color:aqua;
+}
+.second
+{
+    padding-left:300px;
+    font-size:25px;
+    border-radius:-webkit-linear-gradient(aqua,aqua);
+    border-radius:50px 50px 50px 50px;
+}
