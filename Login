@@ -1,0 +1,58 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+class Login extends JFrame implements ActionListener
+{
+	 JButton button1,button2;
+	 JLabel label1,label2;
+	 JTextField f1,f2;
+	 JPasswordField value;
+	public Login()
+	{
+		super("Login Form");
+		label1=new JLabel("UserName:-");
+		f1=new JTextField();
+		label2=new JLabel("Password:-");
+		value=new JPasswordField();
+		        setLayout(new GridLayout(3,2));
+				add(label1);
+				add(label2);
+				add(f1);
+				button1=new JButton();
+		button1.setText("Login");
+		button1.addActionListener(this);
+				add(button1);
+				add(value);
+				button2=new JButton();
+		button2.setText("Cancel");
+		button2.addActionListener(this);
+				add(button2);
+				setSize(250,150);
+				setVisible(true);
+				setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		/*JTextField f2=new JTextField();
+		frame.add(f2);*/
+		
+		
+		
+	}
+	public void actionPerformed(ActionEvent e)
+			{
+				if(e.getSource()==button1)
+				{
+					System.out.println("Hai");
+					new First();
+				}
+				System.exit(0);
+			}
+}
+			class LoginForm
+			{
+			public static void main(String args[])
+			{
+				Login frame=new Login();
+		        
+				}
+			}
+}
